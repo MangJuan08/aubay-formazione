@@ -13,12 +13,10 @@
                             <mat-label>username</mat-label>
                             <input matInput placeholder="insert username" formControlName="user" name="user">
                         </mat-form-field>
-
                         <mat-form-field appearance="outline">
                             <mat-label>password</mat-label>
                             <input matInput placeholder="insert password" formControlName="password" name="password">
                         </mat-form-field>
-
                         <button mat-raised-button color="primary" [disabled]="!loginForm.valid" type="submit">LOGIN</button>
                     </form>
                 </mat-card-content>
